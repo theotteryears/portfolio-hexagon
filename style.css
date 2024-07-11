@@ -89,7 +89,6 @@ a:hover {
 
 .hex:nth-child(5):hover {
   background-color: plum;
-
   rotate: 60deg;
 }
 
