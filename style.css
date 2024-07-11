@@ -13,6 +13,7 @@ h1 {
   text-align: center;
   font-size: 6rem;
   margin-bottom: 3rem;
+  transition: rotate 0.3s;
 }
 
 a {
@@ -20,7 +21,7 @@ a {
   color: white;
   font-weight: bold;
   font-size: 2rem;
-  transition: scale 0.3s;
+  transition: rotate 0.3s;
 }
 
 a:hover {
@@ -48,7 +49,7 @@ a:hover {
 
 .hex:nth-child(1):hover {
   background-color: yellow;
-  scale: 1.05;
+  rotate: 60deg;
 }
 
 .hex:nth-child(2) {
@@ -58,7 +59,7 @@ a:hover {
 
 .hex:nth-child(2):hover {
   background-color: pink;
-  scale: 1.05;
+  rotate: -60deg;
 }
 
 .hex:nth-child(3) {
@@ -68,7 +69,7 @@ a:hover {
 
 .hex:nth-child(3):hover {
   background-color: lime;
-  scale: 1.05;
+  rotate: 60deg;
 }
 
 .hex:nth-child(4) {
@@ -78,7 +79,7 @@ a:hover {
 
 .hex:nth-child(4):hover {
   background-color: lightskyblue;
-  scale: 1.05;
+  rotate: -60deg;
 }
 
 .hex:nth-child(5) {
@@ -88,7 +89,7 @@ a:hover {
 
 .hex:nth-child(5):hover {
   background-color: plum;
-  scale: 1.05;
+  rotate: 60deg;
 }
 
 @media (width <=768px) {
