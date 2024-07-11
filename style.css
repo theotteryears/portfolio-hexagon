@@ -21,7 +21,6 @@ a {
   color: white;
   font-weight: bold;
   font-size: 2rem;
-  transition: rotate 0.3s;
 }
 
 a:hover {
@@ -40,6 +39,11 @@ a:hover {
   display: grid;
   place-items: center;
   background-color: black;
+  transition: rotate 0.3s, translate 0.3s;
+}
+
+.hex:active {
+  translate: 1px 1px;
 }
 
 .hex:nth-child(1) {
